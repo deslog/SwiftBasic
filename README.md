@@ -5,10 +5,14 @@
 # AutoLayout
 👉 AutoLayout_example의 실행 결과물은 아래 화면과 같다. AutoLayout의 기초 내용을 담아 아래 화면을 구현하는 코드이다. 기본적인 메뉴와 개념 설명은 아래 적어놓았다.
 
-<img width="531" alt="스크린샷 2022-01-28 오후 12 50 08" src="https://user-images.githubusercontent.com/96969693/151484160-4f82c5b1-5753-4926-9547-3892c7b3e45f.png">
+## AutoLayout_example
+* AutoLayout을 사용하여 다양한 핸드폰 크기에 맞춰 자동으로 해상도가 조절되게 하였다.
+* IBOutlet 변수를 생성하여 스토리보드에서 생성한 ui를 코드상에서도 자유롭게 조절가능하게 설정해주었다.
+* IBAction 을 활용하여 버튼이 클릭할 때 view의 색상이 변하도록 코드를 작성하였다.
+<img width="400" alt="스크린샷 2022-01-28 오후 12 50 08" src="https://user-images.githubusercontent.com/96969693/151484160-4f82c5b1-5753-4926-9547-3892c7b3e45f.png">
 
 
-#### 기본개념
+#### AutoLayout 기본기능 설명
 ##### AutoLayout 이란?
 * 제약조건 (Constraints)를 이용하여 뷰의 크기와 위치를 지정하는 것
 * 아이폰의 다양한 해상도와 크기에 대응하기 위해서 AutoLayout을 사용한다. 세로보기 화면 뿐만 아니라 가로보기 화면까지 지원한다.
@@ -19,13 +23,13 @@
 
 ##### Add New Constraint
 * 말그대로 화면간의 제약조건을 설정할 수 있는 창이다. top, trailing, bottom leading에 제약조건을 설정할 수 있고, view의 너비와 높이 등을 설정할 수 있다. 참고로 trailing은 오른쪽 leading은 왼쪽이다.
-<img width="683" alt="스크린샷 2022-01-28 오후 12 42 16" src="https://user-images.githubusercontent.com/96969693/151483700-749e2a66-afca-41b8-8b63-a730ad0bd7f2.png">
+<img width="400" alt="스크린샷 2022-01-28 오후 12 42 16" src="https://user-images.githubusercontent.com/96969693/151483700-749e2a66-afca-41b8-8b63-a730ad0bd7f2.png">
 
 ##### Align
 * 뷰간의 정렬을 설정할 수 있는 메뉴이다. 가로세로 정렬 제약조건을 추가한다. 정렬하고 싶은 두개의 뷰를 선택하여 수직정렬이나 수평정렬을 추가할 수도 있다.
-<img width="757" alt="스크린샷 2022-01-28 오후 12 47 04" src="https://user-images.githubusercontent.com/96969693/151483907-455e41a9-f1e8-444a-a28a-b6f9c9b22b0d.png">
+<img width="500" alt="스크린샷 2022-01-28 오후 12 47 04" src="https://user-images.githubusercontent.com/96969693/151483907-455e41a9-f1e8-444a-a28a-b6f9c9b22b0d.png">
 
 ##### Resolve Auto Layout Issues
 * AutoLayout 관련된 이슈를 해결하는 옵션들을 제공한다. 현재 제약조건을 기준으로 뷰를 업데이트 하거나, 캔버스 안의 뷰의 현재위치를 통해 제약을 업데이트 할 수있다. 누락된 제약을 추가하거나 제약을 삭제하거나, 추천해주는 제약조건을 사용가능하다. (많이 사용하지는 않는다.)
-<img width="256" alt="스크린샷 2022-01-28 오후 12 48 48" src="https://user-images.githubusercontent.com/96969693/151484052-d0216b1c-eb20-4dbd-80eb-120f467a8487.png">
+<img width="200" alt="스크린샷 2022-01-28 오후 12 48 48" src="https://user-images.githubusercontent.com/96969693/151484052-d0216b1c-eb20-4dbd-80eb-120f467a8487.png">
 
